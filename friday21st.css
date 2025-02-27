@@ -1,0 +1,56 @@
+/*navbar*/
+*{
+	font-family: arial;
+}
+.top{
+	border-bottom: 3px solid cornflowerblue;
+}
+div{
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	display: flex;
+	padding-bottom: 8px;
+}
+li{
+	padding: 10px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #222;
+}
+span{
+	color: cornflowerblue;
+}
+h2{
+	padding-left: 50px;
+}
+
+/*navbar*/
+
+img{
+	display: block;
+	height: 250px;
+	width: 80%;
+	margin: auto;
+}
+.cent{
+	text-align: center;
+}
+
+.boxes .box{
+	width: 20%;
+	float: left;
+	display: inline;
+	text-align: center;
+	background-color: #eee;
+	border-bottom: 50px solid cornflowerblue;
+}
+
+a:hover{
+	color: cornflowerblue;
+	font-size: 15px;
+	transition: 0s ease;
+}
